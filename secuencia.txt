@@ -1,0 +1,14 @@
+Para abrir repositorio en github:
+En directorio:
+git init
+git add .
+git commit -m "Mensaje"
+
+En github.com:
+Crear nuevo repositorio con nombre de directorio
+Copiar url (de Clone or download)
+
+En directorio:
+git remote add origin url
+git remote -v
+git push -f origin master
